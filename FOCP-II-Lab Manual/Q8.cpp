@@ -1,4 +1,4 @@
-//
+// Program to display event IDs from 1 to N with tags based on divisibility by 3 and 5
 #include <iostream>
 
 int main() {
