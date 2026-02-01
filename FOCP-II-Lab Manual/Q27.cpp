@@ -1,6 +1,5 @@
 //Program to store the prices of 10 items in an array and display the maximum price.
 #include<iostream>
-using namespace std;
 int main(){
     int n;
     std::cout<<"Enter no. of values in array: ";
