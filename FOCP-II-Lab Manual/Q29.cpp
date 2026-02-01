@@ -2,7 +2,7 @@
 #include<iostream>
 int main(){
     float temp[30];
-    std::cout<<"Enter temp record for the month! \n";
+    std::cout<<"Enter the temperature record for the month! \n";
     for(int i=0;i<30;i++){
         std::cout<<"Day "<<i+1<<":"<<"\n";
         std::cin>>temp[i];
