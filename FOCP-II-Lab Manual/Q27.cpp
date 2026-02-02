@@ -1,4 +1,4 @@
-//Program to store the prices of 10 items in an array and display the maximum price.
+//Program to store the prices of n items in an array and display the maximum price.
 #include<iostream>
 int main(){
     int n;
