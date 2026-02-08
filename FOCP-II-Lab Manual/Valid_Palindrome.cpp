@@ -7,14 +7,14 @@ int main(){
     unsigned int i;
     for(i=0;i<s.length();i++){
         if(s[i]>='A'&&s[i]<='Z')
-           S2=S2+char(s[i]+32);
+           S2=S2+(char)(s[i]+32);
         else if((s[i]>='a'&&s[i]<='z')||(s[i]>='0'&&s[i]<='9'))
            S2=S2+s[i];
        }
     std::cout<<S2;
-    int j=S2.length(),ispalindrome;
+    int j=S2.length(),ispalindrome=1;
     for(int i=0;i<j/2;i++){
-		if(s[i]!=s[j-i-1]){
+		if(S2[i]!=S2[j-i-1]){
 			ispalindrome=0;
 			break;
 		}}
