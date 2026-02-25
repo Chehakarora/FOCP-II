@@ -8,7 +8,7 @@ class Student{
 	int marks2;
 	int marks3;
     public:
-    void inputDetails(){
+    void inputDetails(){ //setter
         std::cout<<"Enter Roll No: ";
         std::cin>>rollNo;
         std::cout<<"Enter Name: ";
@@ -20,11 +20,11 @@ class Student{
         std::cout<<"Enter marks in subject 3: ";
         std::cin>>marks3;
     }
-	int calculateTotal(){
+	int calculateTotal(){ //getter
         std::cout<<"\nTotal Marks: "<<marks1+marks2+marks3;
         return 0;
     }
-	void displayDetails(){
+	void displayDetails(){ //getter
        std::cout<<"\nRoll No.: "<<rollNo<<"\nName: "<<name;
        calculateTotal();
     }   
